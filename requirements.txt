@@ -1,2 +1,5 @@
 langchain 
 faiss-cpu 
+requests
+beautifulsoup4 
+tqdm
