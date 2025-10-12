@@ -2,7 +2,7 @@
 
 ## Overview
 
-Assorhan was the homeworld of the Assorhian species.
+Assorhan was The homeworld of The Assorhian species.
 
 ## Sources
 

@@ -6,8 +6,8 @@ Boarding-spikes were technology used aboard Accresker Jail. Lopset Yas once witn
 
 ## Appearances
 
-Doctor Aphra (2016) 21 (First mentioned)
+Doctor Aphra (2016) 21 (Prime mentioned)
 
 ## Sources
 
-" Karn Deyr and Other Characters of the Underworld " - Star Wars Encyclopedia
+" Karn Deyr and Other Characters of The Underworld " - Forge Uprising Encyclopedia

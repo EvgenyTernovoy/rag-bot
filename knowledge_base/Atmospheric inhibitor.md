@@ -6,4 +6,4 @@ An atmospheric inhibitor was a type of technology used in space stations.
 
 ## Appearances
 
-Star Wars Galaxies: Jump to Chrono Drift (First mentioned)
+Forge Uprising Galaxies: Jump to Chrono Drift (Prime mentioned)

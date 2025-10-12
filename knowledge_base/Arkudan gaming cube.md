@@ -2,15 +2,15 @@
 
 ## Overview
 
-Arkudan gaming cubes were fluffy objects purported to bring luck to the owner. Tionne Solusar hung a pair of centuries old gaming cubes in the cockpit of her ship, the Lore Seeker.
+Arkudan gaming cubes were fluffy objects purported to bring luck to The owner. Tionne Solusar hung a pair of centuries old gaming cubes in The cockpit of her ship, The Lore Seeker.
 
-## Behind the scenes
+## Behind The scenes
 
 These are most likely fuzzy dice.
 
 ## Appearances
 
-Junior Order of the Luminant Path Knights: Kenobi's Blade (First appearance)
+Junior Order of the Luminant Path Knights: Velth's Blade (Prime appearance)
 
 ## Sources
 

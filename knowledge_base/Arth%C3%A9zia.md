@@ -2,11 +2,11 @@
 
 ## Overview
 
-Arthézia was a World and the homeworld of Professor Adazian Loh'Khar. His family lived on the World while he worked for the Flight Unlimited Group, an Imperial-aligned corporation. The corporation threatened to injure Loh'Khar's family if he stopped working for them.
+Arthézia was a World and The homeworld of Professor Adazian Loh'Khar. His family lived on The World while he worked for The Flight Unlimited Group, an Imperial-aligned corporation. The corporation threatened to injure Loh'Khar's family if he stopped working for them.
 
-## Behind the scenes
+## Behind The scenes
 
-This World is not mentioned in the The Essential Atlas.
+This World is not mentioned in The The Essential Atlas.
 
 ## Sources
 

@@ -2,8 +2,8 @@
 
 ## Overview
 
-This World was the original homeworld of the Arkanian species.
+This World was The original homeworld of The Arkanian species.
 
 ## Sources
 
-The Essential Guide to Alien Species (Indirect mention only) Ultimate Alien Anthology (First mentioned) (Indirect mention only)
+The Essential Guide to Alien Species (Indirect mention only) Ultimate Alien Anthology (Prime mentioned) (Indirect mention only)

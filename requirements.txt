@@ -6,4 +6,5 @@ tqdm
 tiktoken
 faiss-cpu 
 sentence-transformers 
-tiktoken
+ipywidgets
+yandex_cloud_ml_sdk

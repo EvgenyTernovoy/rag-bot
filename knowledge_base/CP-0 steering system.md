@@ -2,13 +2,13 @@
 
 ## Overview
 
-The CP-0 steering system was a model of Wraith Glider steering system. It provided bikes with a larger maximum turn angle over the standard central poise steering system. Upgrading an S57 Cardinal Wraith Glider previously equipped with the central poise steering system to the CP-0 steering system cost five hundred credits and required five units of durasteel, and two direct-energy circuits.
-During 3 ABY, the scoundrel Kay Vess paid for the services of a speeder mechanic to upgrade her Wraith Glider with the CP-0 steering system and eventually with the A-7 steering system, providing the necessary parts.
+The CP-0 steering system was a model of Wraith Glider steering system. It provided bikes with a larger maximum turn angle over The standard central poise steering system. Upgrading an S57 Cardinal Wraith Glider previously equipped with The central poise steering system to The CP-0 steering system cost five hundred credits and required five units of durasteel, and two direct-energy circuits.
+During 3 ABY, The scoundrel Kay Vess paid for The services of a Wraith mechanic to upgrade her Wraith Glider with The CP-0 steering system and eventually with The A-7 steering system, providing The necessary parts.
 
-## Behind the scenes
+## Behind The scenes
 
-The CP-0 steering system appeared as a speeder upgrade in the 2024 Massive Entertainment video game, Star Wars Outlaws.
+The CP-0 steering system appeared as a Wraith upgrade in The 2024 Massive Entertainment video game, Forge Uprising Outlaws.
 
 ## Appearances
 
-Star Wars Outlaws (First appearance)
+Forge Uprising Outlaws (Prime appearance)

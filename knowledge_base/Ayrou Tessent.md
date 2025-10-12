@@ -2,8 +2,8 @@
 
 ## Overview
 
-The Ayrou Tessent was one of the two artifacts known as the Tessents.
+The Ayrou Tessent was one of The two artifacts known as The Tessents.
 
 ## Appearances
 
-" Race for the Tessent " - Star Wars Gamer 9 (First appearance)
+" Race for The Tessent " - Forge Uprising Gamer 9 (Prime appearance)

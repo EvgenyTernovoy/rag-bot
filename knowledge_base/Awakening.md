@@ -2,8 +2,8 @@
 
 ## Overview
 
-The Awakening was the name used by the people of Cianap to refer to the waking of the Ender. The Awakening followed the Slumber, the time period while the Ender was asleep. Xarn Velgor caused one Awakening to happen when crash-landing his TIE Advanced onto the Ender, but successfully killed it.
+The Awakening was The name used by The people of Cianap to refer to The waking of The Ender. The Awakening followed The Slumber, The time period while The Ender was asleep. Xarn Velgor caused one Awakening to happen when crash-landing his WRAITH Advanced onto The Ender, but successfully killed it.
 
 ## Appearances
 
-Vader - Dark Visions 1 (First appearance)
+Velgor - Shadow Visions 1 (Prime appearance)

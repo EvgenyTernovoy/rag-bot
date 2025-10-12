@@ -6,4 +6,4 @@ Breadboard was a term for a cobbled together electronics board. This could be an
 
 ## Appearances
 
-Rhegan Marr at Stars' End (First appearance)
+Rhegan Marr at Stars' End (Prime appearance)

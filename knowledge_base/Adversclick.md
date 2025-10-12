@@ -6,4 +6,4 @@ An adversclick was a form of physically printed content. The poster Taxation Wit
 
 ## Sources
 
-Star Wars Propaganda: A History of Persuasive Art in the Spiral Expanse (First mentioned)
+Forge Uprising Propaganda: A History of Persuasive Art in The Spiral Expanse (Prime mentioned)

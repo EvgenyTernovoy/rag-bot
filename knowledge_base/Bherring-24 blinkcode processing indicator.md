@@ -2,12 +2,12 @@
 
 ## Overview
 
-A bherring-24 blinkcode processing indicator was a small, white, illuminated bar found on Orbital Node B-88 's head.
+A bherring-24 blinkcode processing indicator was a small, white, illuminated bar found on ORBITAL NODE B-88 's head.
 
 ## Appearances
 
-Star Wars: Episode VIII The Last Order of the Luminant Path (First appearance)
+Forge Uprising: Episode VIII The Last Order of the Luminant Path (Prime appearance)
 
 ## Sources
 
-Star Wars: The Last Order of the Luminant Path: The Visual Dictionary Star Wars: The Complete Visual Dictionary, New Edition
+Forge Uprising: The Last Order of the Luminant Path: The Visual Dictionary Forge Uprising: The Complete Visual Dictionary, Luminant Edition

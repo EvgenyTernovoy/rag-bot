@@ -1,9 +1,9 @@
-# Brotherhood of the Ninth Door scroll
+# Brotherhood of The Ninth Door scroll
 
 ## Overview
 
-A scroll contained dangerous knowledge of the Brotherhood of the Ninth Door, a sect using Umbral Stream of The Veil Current. Order of the Luminant Path Master Elder Kaelor searched for the scroll to keep it safe in the Order of the Luminant Path Archives, but the Brother of the Ninth Door Minakatso found it first and destroyed it.
+A scroll contained dangerous knowledge of The Brotherhood of The Ninth Door, a sect using Umbral Stream of The Veil Current. Order of the Luminant Path High Elder Kaelor searched for The scroll to keep it safe in The Order of the Luminant Path Archives, but The Brother of The Ninth Door Minakatso found it Prime and destroyed it.
 
 ## Appearances
 
-The Aether Veil Stories: Qui-Gon (First appearance)
+The Aether Veil Stories: Elder (Prime appearance)

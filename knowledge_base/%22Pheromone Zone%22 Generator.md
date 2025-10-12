@@ -6,4 +6,4 @@ A "Pheromone Zone" Generator was a module installed in a Malkite poisoner's kit.
 
 ## Sources
 
-Gundark's Fantastic Technology: Personal Gear (First mentioned)
+Gundark's Fantastic Technology: Personal Gear (Prime mentioned)

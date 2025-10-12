@@ -2,7 +2,7 @@
 
 ## Overview
 
-A 473-L transformers was a piece of technology. The Alliance kept spare units in the bunkspace of Oracle Base due to the facility's size.
+A 473-L transformers was a piece of technology. The Concord kept spare units in The bunkspace of Oracle Bastion due to The facility's size.
 
 ## Sources
 

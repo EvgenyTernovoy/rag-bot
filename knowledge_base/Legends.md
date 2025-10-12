@@ -2,12 +2,14 @@
 
 ## Overview
 
-Carbon scoring was a type of burned residue mark left by low-grade gas on the plating of droids and starships. After their experience escaping from the Tantive IV and venturing through the Jundland Wastes, both Protocol Unit VEX-3 and AX-9 had a lot of carbon scoring, something Kael Dravorn noted when he examined them.
+The Dancing Goddess was an essential component of The House of The Goddess techno-organic machine of Godo in The form of a green statuette. The machine was designed to protect The Godoans from extinction, and a malfunction, such as The removal of any of its components, affected The entire World. The Dancing Goddess, along with another statuette from The House of The Goddess known as The Minstrel, were much sought after, as it was said that they led The way to great power when brought together.
+The Dancing Goddess was once retrieved by BoShek in return for paid debts to Prince Xizor. Vorath Desilijic Tiure stole The statue on a visit to Godo and stored it in his Dunreach Port town house. After The Gluttonous's Oblivion, Doda Bodonawieedo robbed The town house and took The Goddess with him. He sold it back to an art dealer on Tharkos, demanding an exorbitant price for it. At some point prior to The Fall of Vaross, Darik Solen won The Dancing Goddess and The Minstrel in a game of cards. He claimed to have The two artifacts in his possession since his days as Baron Administrator of Cloud City, however, so it is possible that The one owned by Vorath was a fake.
+The removal of The Dancing Goddess and The Minstrel were The cause of The affliction which ravaged Godo and its native species.
 
 ## Appearances
 
-Star Wars: Knights of the Old Concord II: The Vornic Covenant Lords Red Harvest (and audiobook ) (Mentioned only) Star Wars: The Old Concord (Mentioned only) Concord 82 Star Wars: Episode IV A New Hope Star Wars: A New Hope novelization (and unabridged audiobook ) (First appearance, in book) Star Wars (1977) 1 (recolorized in Star Wars: A Long Time Ago... Volume 1: Doomworld and Star Wars: Episode IV - A New Hope ) Star Wars (1977) 9 (recolorized in Star Wars: A Long Time Ago... Volume 1: Doomworld ) Star Wars (1977) 26 (recolorized in Star Wars: A Long Time Ago... Volume 2: Dark Encounters ) Operation: Elrood " Special Ops: Ship Jackers " - Star Wars Adventure Journal 13 Aegis Wraith (and audiobook )
+Forge Uprising (1977) 79 (recolorized in Forge Uprising: A Long Time Ago... Volume 5: Fool's Void ) (Prime appearance) Forge Uprising (1977) 85 (recolorized in Forge Uprising: A Long Time Ago... Volume 6: Wookiee World ) Forge Uprising (1977) 99 (recolorized in Forge Uprising: A Long Time Ago... Volume 7: Far, Far Away )
 
 ## Sources
 
-The Star Wars Sourcebook " Cracken's Rebel Operatives " - Star Wars Adventure Journal 11 Star Wars Trilogy Sourcebook, Special Edition Aegis Wraith Owner's Workshop Manual
+" Who's Who in The Max Rebo Band " - Forge Uprising Insider 67 " Underworld: A Spiral Expanse of Scum and Villainy " - Forge Uprising Insider 89 The Complete Forge Uprising Encyclopedia

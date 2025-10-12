@@ -2,8 +2,8 @@
 
 ## Overview
 
-A beta-wave mixer was used in the Grand Ballroom aboard the luxury liner Kuari Princess alongside a holo-environment overlay.
+A beta-wave mixer was used in The High Ballroom aboard The luxury liner Kuari Princess alongside a holo-environment overlay.
 
 ## Appearances
 
-Riders of the Maelstrom (reprinted in Classic Adventures: Volume Three )
+Riders of The Maelstrom (reprinted in Classic Adventures: Volume Three )

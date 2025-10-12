@@ -6,4 +6,4 @@ An atomizer cone was an item that could be bet. According to Beed, Fode had seve
 
 ## Appearances
 
-Star Wars (1998) 14 (First mentioned)
+Forge Uprising (1998) 14 (Prime mentioned)
