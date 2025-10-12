@@ -3,3 +3,7 @@ faiss-cpu
 requests
 beautifulsoup4 
 tqdm
+tiktoken
+faiss-cpu 
+sentence-transformers 
+tiktoken
