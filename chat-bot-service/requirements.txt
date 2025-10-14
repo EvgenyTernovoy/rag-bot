@@ -6,3 +6,4 @@ numpy
 pydantic
 python-dotenv
 yandex-cloud-ml-sdk
+python-telegram-bot

@@ -1,34 +1,37 @@
-from fastapi import FastAPI, HTTPException, Depends, Header
-from fastapi.responses import JSONResponse
-from .models import SearchRequest, SearchResponse
+import os
+from telegram import Update, Bot
+from telegram.ext import (
+    ApplicationBuilder,
+    CommandHandler,
+    MessageHandler,
+    ContextTypes,
+    filters,
+)
 from .utils import (
     create_message_to_llm,
     format_results,
-    get_index_and_metadata,
     get_model,
-    reload_resources,
+    get_index_and_metadata,
+    sanitize_for_runtime,
     run_llm,
 )
-from .security import sanitize_for_runtime
-import os
 
-app = FastAPI(title="FAISS Search Service", version="1.0.0")
-
-RELOAD_TOKEN = os.getenv("RELOAD_TOKEN", "changeme")
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
 
-@app.get("/health")
-async def health():
-    return {"status": "ok"}
+async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    await update.message.reply_text(
+        "Привет! Отправь мне вопрос, и я поищу ответ в документах."
+    )
 
 
-@app.post("/search", response_model=SearchResponse)
-async def search_endpoint(request: SearchRequest):
+async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    query = update.message.text
     model = get_model()
     index, metadata = get_index_and_metadata()
 
-    q_vec = model.encode([request.query], convert_to_numpy=True)
-    D, I = index.search(q_vec, request.k)
+    q_vec = model.encode([query], convert_to_numpy=True)
+    D, I = index.search(q_vec, 10)
 
     results = []
     for idx, dist in zip(I[0], D[0]):
@@ -40,17 +43,17 @@ async def search_endpoint(request: SearchRequest):
 
     safe_results = sanitize_for_runtime(results)
     documents = format_results(safe_results)
-    message_to_llm = create_message_to_llm(documents, request.query)
+    message_to_llm = create_message_to_llm(documents, query)
 
-    llm_responese = run_llm(message_to_llm)
-    print("llm_response in main:", llm_responese)
+    llm_response_text = run_llm(message_to_llm)
 
-    return {"result": llm_responese}
+    # Отправляем пользователю ответ
+    await update.message.reply_text(llm_response_text)
 
 
-@app.post("/reload")
-async def reload_endpoint(x_reload_token: str = Header(None)):
-    if x_reload_token != RELOAD_TOKEN:
-        raise HTTPException(status_code=403, detail="Invalid token")
-    reload_resources()
-    return {"status": "reloaded"}
+# Запуск бота
+if __name__ == "__main__":
+    app = ApplicationBuilder().token(TELEGRAM_TOKEN).build()
+    app.add_handler(CommandHandler("start", start))
+    app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
+    app.run_polling()
