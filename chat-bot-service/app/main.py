@@ -12,9 +12,10 @@ from .utils import (
     format_results,
     get_model,
     get_index_and_metadata,
-    sanitize_for_runtime,
     run_llm,
 )
+
+from .security import sanitize_for_runtime
 
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
