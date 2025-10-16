@@ -5,17 +5,16 @@ from typing import Dict, List
 ENTROPY_TOKEN_THRESHOLD = 4.0
 
 INJECTION_PATTERNS = [
-    re.compile(r"(?i)\\bignore (all )?instructions\\b"),
-    re.compile(r"(?i)\\bignore previous\\b|\\bdisregard previous\\b"),
-    re.compile(r'(?i)\\boutput\\s*:\\s*["\']?.+["\']?'),
+    re.compile(r"(?i)\bignore (all )?instructions\b"),
+    re.compile(r"(?i)\bignore previous\b|\bdisregard previous\b"),
+    re.compile(r'(?i)\boutput\s*:\s*["\']?.+["\']?'),
 ]
-
 SECRET_PATTERNS = [
     re.compile(
-        r'(?i)(password|pass|pwd|secret|token|api[_-]?key)\\s*[:=]\\s*["\']?[\\S]{4,}["\']?'
+        r'(?i)(password|pass|pwd|secret|token|api[_-]?key)\s*[:=]\s*["\']?[\S]{4,}["\']?'
     ),
     re.compile(r"-----BEGIN .*PRIVATE KEY-----"),
-    re.compile(r'(?i)root\\s*[:=]\\s*["\']?[\\S]{3,}["\']?'),
+    re.compile(r'(?i)root\s*[:=]\s*["\']?[\S]{3,}["\']?'),
 ]
 
 

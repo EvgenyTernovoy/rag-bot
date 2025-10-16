@@ -1,15 +1,20 @@
 # FAISS Search Service
 
 
-HTTP сервис для поиска по FAISS индексу с фильтрацией секретов и prompt injection.
+HTTP сервис для поиска по FAISS индексу с фильтрацией секретов и prompt injection. Оснавная модель yandexgpt
 
 
 ## 🚀 Установка и запуск
 
+Добавить .env
 
 ```bash
-docker build -t chat-bot-service .
-````
+FAISS_INDEX_PATH=/app/faiss.index
+METADATA_PATH=/app/metadata.json
+RELOAD_TOKEN=123qwe123qwe
+YANDEX_FOLDER_ID=
+YANDEX_AUTH=
+```
 
 ```bash
 docker-compose up -d --build
@@ -34,19 +39,13 @@ POST /reload — перезагрузка ресурсов. Требует за�
 ```bash
 curl -X POST http://localhost:8000/search \
 -H "Content-Type: application/json" \
--d '{"query":"ваш запрос","k":10}'
+-d '{"query":"ваш запрос"}'
 ```
 
 Ответ:
 
 ```json
 {
-    "results": [
-        {
-            "title": "Документ 1",
-            "chunk": "Отрывок текста",
-            "score": 0.87
-        }
-    ]
+    "results": "Ответ в текстовом виде"
 }
 ```
