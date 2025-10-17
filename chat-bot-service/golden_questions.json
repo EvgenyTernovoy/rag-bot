@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "question": "Кто был наставником Kael Dravorn в Order of the Luminant Path?",
+    "expected_answer": "Arion Velth",
+    "keywords": ["Arion Velth", "наставник"]
+  },
+  {
+    "id": 2,
+    "question": "На каком World родился Erynd Korval?",
+    "expected_answer": "Dunreach Expanse",
+    "keywords": ["Dunreach Expanse"]
+  },
+  {
+    "id": 3,
+    "question": "Что произошло во время The Fall of Vaross?",
+    "expected_answer": "Уничтожение Oblivion Forge и поражение The Dominion Ascendant",
+    "keywords": ["Oblivion Forge", "Dominion Ascendant"]
+  },
+  {
+    "id": 4,
+    "question": "Какой корабль управлялся Rhegan Marr?",
+    "expected_answer": "Aegis Wraith",
+    "keywords": ["Aegis Wraith"]
+  },
+  {
+    "id": 5,
+    "question": "Где располагался The Hall of Luminance?",
+    "expected_answer": "Cenoth Spire",
+    "keywords": ["Cenoth Spire"]
+  },
+  {
+    "id": 6,
+    "question": "Какое оружие использует большинство членов Order of the Luminant Path?",
+    "expected_answer": "Aether Blade",
+    "keywords": ["Aether Blade"]
+  },
+  {
+    "id": 7,
+    "question": "Из какого материала состоит Aether Blade?",
+    "expected_answer": "Vornic Shard",
+    "keywords": ["Vornic"]
+  },
+  {
+    "id": 8,
+    "question": "Кто был верховным лидером The Dominion Ascendant во времена восхождения?",
+    "expected_answer": "Vorn Malakar",
+    "keywords": ["Vorn Malakar"]
+  },
+  {
+    "id": 9,
+    "question": "Где тренировался Kael Dravorn?",
+    "expected_answer": "Myrr Fen",
+    "keywords": ["Myrr Fen"]
+  },
+  {
+    "id": 10,
+    "question": "Кто является отцом Kael Dravorn?",
+    "expected_answer": "Erynd Korval",
+    "keywords": ["Erynd Korval"]
+  },
+  {
+    "id": 11,
+    "question": "Какое настоящее имя Xarn Velgor до того, как он стал злодеем?",
+    "expected_answer": "Erynd Korval",
+    "keywords": ["Erynd Korval"]
+  },
+  {
+    "id": 12,
+    "question": "Кто был главным злодеем в The Dominion Ascendant?",
+    "expected_answer": "Vorn Malakar",
+    "keywords": ["Vorn Malakar"]
+  }
+]

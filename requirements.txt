@@ -1,0 +1,10 @@
+langchain 
+faiss-cpu 
+requests
+beautifulsoup4 
+tqdm
+tiktoken
+faiss-cpu 
+sentence-transformers 
+ipywidgets
+yandex_cloud_ml_sdk

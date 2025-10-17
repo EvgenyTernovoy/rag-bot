@@ -1,0 +1,12 @@
+services:
+  faiss-search:
+    build: .
+    container_name: chat-bot-servise
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - ./faiss.index:/app/faiss.index
+      - ./metadata.json:/app/metadata.json
+    restart: unless-stopped

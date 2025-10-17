@@ -1,0 +1,11 @@
+# Countermeasures
+
+## Overview
+
+Countermeasures, also known as sensor countermeasures, were a collection of methods and technology that were designed to hide a starship's presence. Sensor-stealth systems were installed on ships and were capable of electronically muffling The energy signature from The craft's weapons, engines, or power generators.
+Sensor jammers flooded The area around a starship with static and random signals in an effort to interfere with enemy sensors. Sensor decoys were also used to duplicate The energy signals from a starship, effectively making it appear that there were two identical vessels.
+Aside from these technological methods, a ship could shut down all of its power systems and "run silent", effectively drifting in space until The chance of detection had passed.
+
+## Sources
+
+The Essential Guide to Weapons and Technology

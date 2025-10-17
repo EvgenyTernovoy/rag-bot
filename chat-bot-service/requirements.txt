@@ -1,0 +1,10 @@
+fastapi==0.115.2
+uvicorn[standard]==0.30.0
+sentence-transformers==3.1.0
+faiss-cpu
+numpy
+pydantic
+python-dotenv
+yandex-cloud-ml-sdk
+python-telegram-bot
+tiktoken
