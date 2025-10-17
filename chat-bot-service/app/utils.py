@@ -12,6 +12,7 @@ YANDEX_FOLDER_ID = os.getenv("YANDEX_FOLDER_ID", "")
 YANDEX_AUTH = os.getenv("YANDEX_AUTH", "")
 YANDEX_MODEL_NAME = os.getenv("YANDEX_MODEL_NAME", "yandexgpt")
 
+print("YANDEX_FOLDER_ID", YANDEX_FOLDER_ID)
 
 _model = None
 _index = None

@@ -16,6 +16,7 @@ from .utils import (
 )
 
 from .security import sanitize_for_runtime
+from .log import log_request
 
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
@@ -47,6 +48,9 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     message_to_llm = create_message_to_llm(documents, query)
 
     llm_response_text = run_llm(message_to_llm)
+
+    # 📌 Логируем запрос и ответ
+    log_request(query, results, llm_response_text)
 
     # Отправляем пользователю ответ
     await update.message.reply_text(llm_response_text)

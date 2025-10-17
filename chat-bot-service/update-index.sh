@@ -4,6 +4,7 @@ set -euo pipefail
 SERVICE_NAME="faiss-search"
 LOG_FILE="./update_index.log"
 INDEX_SCRIPT="./app/update_index.py"
+TEST_SCRIPT="./app/test_rag_bot.py"
 ERROR_LOG="/tmp/update_index_error.log"
 
 # ===== Функция логирования =====
@@ -62,3 +63,5 @@ docker-compose restart "$SERVICE_NAME" 2>>"$ERROR_LOG"
 log "✅ Сервис успешно перезапущен."
 
 log "🎯 Обновление завершено успешно."
+
+

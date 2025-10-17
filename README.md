@@ -56,3 +56,25 @@ bash update-index.sh
     [2025-10-16 10:03:51] 🎯 Обновление завершено успешно.
   ```
 - [Ссылка на UML диаграмму](https://www.planttext.com?text=PL9DRnCn4BtxLmmvjLARlN3Yr11GX6WHIiGvSdQdYS5hM_PiamWXGJbmuC0LgHA8Vr0AbK8Xy1Uy_uZn9YGGBjuTptjlFloE0abFLQa5AT88_KxlS6G9b2bm1fKh9264V8Ab58Ai0xB0UR8b5CfZJieQ8Mufa-kgmCfhc12vS2VBl9osnuecrQWAw7Dh20srSrjcVPLBNzX72Xtgh7lxyB6MXfwS76Ub38IUhuPTMpfh4iEbveJeie1K1lrUhn4zW5R7AUXnVrCvRt7uq9fn-lQGKL83a_qSd5M6Mli0VqaCxzhA5DBFzmRepz0pANw8d-FtU5c_YSlwRVm6zQjuNR-CL-ba-dC1i6sXunnprhjADU_P_5dISNEQMDFQ_mSzoBrob8fyYZUikOY_wdE8FxdYaiyhhdlDVulw7N1k6RzoUCFrBvFoI8R9Zjw3z3OTKvmWoQJwVijX0OW_kEVp5VjKgX0Eu6duhwbZEmw9VC4TV8cB16xJh1c6aI-46CpvBShX_HbjDnu_rg-RFIqsUrhbrZJHHxqPTyDobTPWS0gdIcDWM48rAzoPX8soplxHs0KqVjp1h2UPUiLMrHpiv5UFvR5nEh0NprIUD8xG5Eojtm00)
+
+
+## Задание 7. Аналитика покрытия и качества базы знаний
+
+**Для запуска тестов:**
+
+```bash
+cd ./chat-bot-service
+python3 ./app/test_rag_bot.py
+```
+
+Анализ тестов:
+- дополнить базу по биографии Kael Dravorn
+- дополнить базу по Aether Blade
+- добавить информацию на The Dominion Ascendant
+
+Что можно улучшить:
+- дополнить базу по выявленным пробелам
+- поэксперементировать с колличеством чанков и длинной данных которые отдаем в llm
+- улучшить эвристики при проведении тестов
+
+[Ссылка на диаграмму](https://mermaid.live/edit#pako:eNqNkstu00AUhl_FOluSyK4Dtb2oVJWLkMqGwAZZqkw8pBHYLhMbAVGkJBWqqiCxZQVC4gHSqlFKk7ivcOaN-MduokYtl1nM5fh8__l9ZrrUTEJBHnXE20zETXG_HbRkEPmxgfG8I2R1a-vOs9beyyT1DP6mhnzJY9XnU56pLzxRQwPbnC8RytWgxMp0DT7dfrQHjXftpvgTPeXxOn2N0RIPtx83GoC_qmOe8NyAQm7wCagpTzS-wHbB5_yrxIt8gNX12t9hcqYO1VEhogaQOcec84XBZ3pRhzzHtwU85nx6q5XGgx0o_UStmfqshqoP5kptAoG-_iE1KlHk3jTx43rVE0BT3Tp0ZIC6I_Xp_63s7j4prOSoOofm0goCQ3QXRkoMeX_rxfhWaL1WdXX7_-JW917VD-cKuNA3pUbIuwlRhVqyHZKXykxUKBIyCvSRulrQp3RfRMInD9swkK998uMemIMgfpEk0RKTSdbaJ-9V8KaDU3YQBunyGa-iUsShkDtJFqfkuYUEeV16T57t1lzXdu_ZpmlZWOsV-oAUs2abG47j2ohZjm31KvSxqGnW3Lum5Thm3dy0MTbrvd8yvont)

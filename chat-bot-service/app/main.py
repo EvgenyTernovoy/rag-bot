@@ -10,11 +10,9 @@ from .utils import (
     run_llm,
 )
 from .security import sanitize_for_runtime
-import os
+from .log import log_request
 
-app = FastAPI(title="FAISS Search Service", version="1.0.0")
-
-RELOAD_TOKEN = os.getenv("RELOAD_TOKEN", "changeme")
+app = FastAPI(title="RAG Search Service", version="1.0.0")
 
 
 @app.get("/health")
@@ -28,7 +26,7 @@ async def search_endpoint(request: SearchRequest):
     index, metadata = get_index_and_metadata()
 
     q_vec = model.encode([request.query], convert_to_numpy=True)
-    D, I = index.search(q_vec, request.k)
+    D, I = index.search(q_vec, 15)
 
     results = []
     for idx, dist in zip(I[0], D[0]):
@@ -39,18 +37,14 @@ async def search_endpoint(request: SearchRequest):
         results.append(item)
 
     safe_results = sanitize_for_runtime(results)
-    documents = format_results(safe_results)
+    documents = format_results(safe_results, 2000)
+
     message_to_llm = create_message_to_llm(documents, request.query)
 
     llm_responese = run_llm(message_to_llm)
     print("llm_response in main:", llm_responese)
 
+    # 📌 Логируем запрос и ответ
+    log_request(request.query, results, llm_responese)
+
     return {"result": llm_responese}
-
-
-@app.post("/reload")
-async def reload_endpoint(x_reload_token: str = Header(None)):
-    if x_reload_token != RELOAD_TOKEN:
-        raise HTTPException(status_code=403, detail="Invalid token")
-    reload_resources()
-    return {"status": "reloaded"}

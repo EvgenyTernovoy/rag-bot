@@ -17,6 +17,13 @@ YANDEX_AUTH=
 ```
 
 ```bash
+python -m uvicorn app.main:app --host 0.0.0.0 --port 8000 --env-file .env
+```
+
+или
+
+
+```bash
 docker-compose up -d --build
 ```
 
@@ -24,9 +31,7 @@ docker-compose up -d --build
 
 GET /health — проверка статуса.
 
-POST /search — тело: { "query": "...", "k": 20 }.
-
-POST /reload — перезагрузка ресурсов. Требует заголовок X-Reload-Token.
+POST /search — тело: { "query": "..."}.
 
 🧠 Безопасность
 

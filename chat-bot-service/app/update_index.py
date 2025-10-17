@@ -16,7 +16,7 @@ INPUT_DIR = "../knowledge_base"
 INDEX_PATH = "./faiss.index"
 METADATA_PATH = "./metadata.json"
 
-MAX_TOKENS = 256
+MAX_TOKENS = 200
 OVERLAP = 32
 
 
@@ -42,7 +42,7 @@ def read_md_file(path: str) -> str:
 
 
 def chunk_by_tokens(
-    text: str, source: str, max_tokens: int = 256, overlap: int = 32, enc=None
+    text: str, source: str, max_tokens: int = MAX_TOKENS, overlap: int = 32, enc=None
 ):
     enc = enc or tiktoken.get_encoding("cl100k_base")
     tokens = enc.encode(text)
@@ -75,7 +75,7 @@ def chunk_by_tokens(
     return chunks
 
 
-def process_directory(input_dir: str, max_tokens=256, overlap=32):
+def process_directory(input_dir: str, max_tokens=MAX_TOKENS, overlap=32):
     enc = tiktoken.get_encoding("cl100k_base")
     all_chunks = []
     for root, _, files in os.walk(input_dir):
